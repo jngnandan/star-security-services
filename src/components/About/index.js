@@ -7,7 +7,7 @@ export class About extends Component {
             <div className='flex flex-col justify-start h-screen'>
                 {/* Header Image */}
                 <div>
-                    <img className='w-screen' src='http://unsplash.it/1200/500?random&blur&gravity=center' alt='' />
+                    <img className='w-screen' src='http://unsplash.it/1200/400?random&blur&gravity=center' alt='' />
                 </div>
 
                 {/* About Us */}
@@ -17,8 +17,8 @@ export class About extends Component {
                 </div>
 
                 {/* Company Logo */}
-                <div className='px-10'>
-                    <div className='my-2 h-68 bg-gray-200 flex flex-col justify-start py-4'>
+                <div className='px-10 flex flex-row justify-center items-center'>
+                    <div className='my-2 h-68 bg-gray-200 flex flex-col justify-center py-4 w-96'>
                         <h1 className='text-center font-bold text-2xl py-8'>Logo</h1>
                         <h1 className='text-left px-6 text-2xl font-bold text-gray-800'>Our Mission</h1>
 
@@ -33,30 +33,35 @@ export class About extends Component {
                 </div>
 
                 {/* Security Services */}
-                <div className='p-10'>
-                    <h1 className='text-3xl font-bold text-gray-500'>Our Services</h1>
+                <div className='p-10 flex flex-wrap justify-start'>
+                    <h1 className='text-3xl font-bold text-gray-500 w-screen pb-4'>Our Services</h1>
 
-                    <div className='bg-image mt-5 p-4 flex flex-col justify-between'>
+                    <div className='bg-image w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
                         <h2 className='text-white text-2xl font-bold'>Physical Security</h2>
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div className='bg-image mt-5 p-4 flex flex-col justify-between'>
+                    <div className='bg-image w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
                         <h2 className='text-white text-2xl font-bold'>Cash Security</h2>
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div className='bg-image mt-5 p-4 flex flex-col justify-between'>
+                    <div className='bg-image w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
                         <h2 className='text-white text-2xl font-bold'>Risk Management</h2>
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div className='bg-image mt-5 p-4 flex flex-col justify-between'>
+                    <div className='bg-image w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
                         <h2 className='text-white text-2xl font-bold'>Virtual Guarding</h2>
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div className='bg-image mt-5 p-4 flex flex-col justify-between'>
+                    <div className='bg-image w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
+                        <h2 className='text-white text-2xl font-bold'>Crowd Management</h2>
+                        <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+
+                    <div className='bg-image w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
                         <h2 className='text-white text-2xl font-bold'>Crowd Management</h2>
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>

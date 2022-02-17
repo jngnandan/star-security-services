@@ -19,7 +19,7 @@ export class App extends Component {
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/about" element={<About />} />
-            <Route exact match="/careers" element={<Careers />} />
+            <Route exact path="/careers" element={<Careers />}/>
             <Route exact path="/services" element={<Services />} />
             <Route exact path="/contactus" element={<ContactUs />} />
             <Route path="*" element={<NotFound />} />

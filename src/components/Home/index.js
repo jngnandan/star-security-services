@@ -5,10 +5,10 @@ export class Home extends Component {
     render() {
         const imgage1 = 'src/Images/security-guard.jpeg'
         return (
-            <div className='flex flex-col justify-start'>
+            <div className=''>
                 {/* Header */}
                 <div>
-                    <img className='w-screen' src='http://unsplash.it/1200/500?random&blur&gravity=center' alt='' />
+                    <img className='w-screen' src='http://unsplash.it/1200/400?random&blur&gravity=center' alt='' />
                 </div>
 
                 {/* Second ribbon */}
@@ -66,20 +66,23 @@ export class Home extends Component {
                 </div>
 
                 {/* Testimonials */}
-                <div className='p-10'>
-                    <h1 className='text-2xl font-bold text-gray-500'>Testimonials</h1>
-                    <h1 className='text-2xl font-bold text-gray-800'>Here is what some of our clients have said about working with us.</h1>
+                <div className='p-10 md:w-2/4'>
+                    <h1 className='text-2xl font-bold text-gray-500 text-left w-100'>Testimonials</h1>
+                    <h1 className='text-2xl font-bold text-gray-800 '>Here is what some of our clients</h1>
 
                     {/* Company Quotation */}
-                    <div className='my-2 border border-gray-500 h-72 flex flex-col justify-center items-center'>
-                        <h1 className='text-center font-bold text-2xl py-6'>Logo</h1>
-                        <p className='text-sm text-center px-6'>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo laudantium aliquid sunt iure accusantium modi doloribus nihil fuga culpa magnam vero ipsam, commodi inventore laboriosam illum praesentium in ut suscipit."</p>
+                    <div className='flex flex-row justify-center items-center w-full mt-4'>
+                        <div className='my-2 border border-gray-500 h-72 text-center'>
+                            <h1 className='text-center font-bold text-2xl py-6'>Logo</h1>
+                            <p className='text-sm text-center px-6'>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo laudantium aliquid sunt iure accusantium modi doloribus nihil fuga culpa magnam vero ipsam, commodi inventore laboriosam illum praesentium in ut suscipit."</p>
 
-                        <div className='py-4'>
-                            <p className='font-bold '>Global Product Officer</p>
-                            <p className='italic text-center'>Red Cross</p>
+                            <div className='py-4'>
+                                <p className='font-bold'>Global Product Officer</p>
+                                <p className='italic text-center'>Red Cross</p>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
                 {/* Address */}

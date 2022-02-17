@@ -4,7 +4,7 @@ export class ContactUs extends Component {
     render() {
         return (
             <div className='flex flex-col h-100 bg-whySection'>
-                <div className='p-10' >
+                <div className='p-10 xl:w-4/5' >
                     <h1 className='text-4xl font-bold text-gray-800'>Contact</h1>
 
                     <hr className='border border-gray-400 my-8' />
