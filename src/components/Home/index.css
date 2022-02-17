@@ -1,0 +1,29 @@
+
+.bg-image {
+    background-image: url('/src/Images/security-guard.jpeg');
+    height: 200px;
+    background-size: cover;
+}
+
+.bg-image2 {
+    background-image: url('http://unsplash.it/g/1200/200?random&blur&gravity=center');
+    height: 200px;
+    background-size: cover;
+}
+
+.bg-image3 {
+    background-image: url('http://unsplash.it/g/1200/200?blur&gravity=center');
+    height: 200px;
+    background-size: cover;
+}
+
+.bg-whySection{
+    background-color: lightgray;
+    height: 500;
+}
+
+.address-image{
+    background-image: url('http://unsplash.it/g/1200/200?blur&gravity=center');
+    height: 250px;
+    background-size: cover;
+}
