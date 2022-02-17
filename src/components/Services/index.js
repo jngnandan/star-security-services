@@ -6,10 +6,12 @@ export class Services extends Component {
             <div className='flex flex-col h-screen'>
                 <div className='p-10'>
                     {/* Services */}
-                    <h1 className='text-4xl font-bold text-gray-800'>Services</h1>
-                    <p className='py-3 text-gray-800'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem explicabo soluta repudiandae architecto inventore accusantium modi sednerium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, iusto! Quam eveniet iusto, explicabo dignissimos, voluptatibus optio laudantium quas magni iure dolore maxime</p>
-                    <button className='bg-blue-500 hover:bg-gray-500 hover:text-black py-3 px-6 shadow mt-4 text-white font-bold mb-3'>Request a quote</button>
-
+                    <div className='xl:w-4/5'>
+                        <h1 className='text-4xl font-bold text-gray-800'>Services</h1>
+                        <p className='py-3 text-gray-800'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem explicabo soluta repudiandae architecto inventore accusantium modi sednerium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, iusto! Quam eveniet iusto, explicabo dignissimos, voluptatibus optio laudantium quas magni iure dolore maxime</p>
+                        <button className='bg-blue-500 hover:bg-gray-500 hover:text-black py-3 px-6 shadow mt-4 text-white font-bold mb-3'>Request a quote</button>
+                    </div>
+                    
                     {/* Services */}
                     <div className='flex flex-wrap my-6'>
                         <div className='lg:w-2/6  lg:border-b-0 xl:border-r-0 md:w-2/4 border border-gray-500 p-8 my-4 mt-0 mb-0'>
@@ -65,7 +67,7 @@ export class Services extends Component {
                     <button className='bg-blue-500 hover:bg-gray-500 hover:text-black py-3 px-6 shadow mt-4 text-white font-bold'>Request a quote</button>
                 </div>
 
-                <div className='p-10 bg-white flex flex-col justify-left items-left'>
+                <div className='p-10 bg-white flex flex-col justify-left items-left xl:w-4/5'>
                     <h1 className='text-3xl font-bold text-gray-800 text-left'>The Star Security difference</h1>
 
                     <p className='text-gray-800 my-2 text-left'>GardaWorld is the largest privately owned security services company in the world. We offer first-rate security solutions and professionals to protect your people, assets and reputation globally.
@@ -84,7 +86,7 @@ export class Services extends Component {
                 {/* Contact us */}
                 <div className='p-10 bg-gray-200 h-300 flex flex-col justify-start'>
                     <h1 className='text-3xl font-bold text-gray-800 text-start'>Careers</h1>
-                    <p className='w-100 py-4 text-start text-sm'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure blanditiis omnis excepturi nisi debitis molestias, fugiat explicabo! Enim quisquam voluptatibus dignissimos aspernatur dolore. Corporis, reprehenderit assumenda aperiam voluptate ut quibusdam.</p>
+                    <p className='w-100 py-4 text-start text-sm xl:w-4/5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure blanditiis omnis excepturi nisi debitis molestias, fugiat explicabo! Enim quisquam voluptatibus dignissimos aspernatur dolore. Corporis, reprehenderit assumenda aperiam voluptate ut quibusdam.</p>
                     <button className='text-left pl-4 border border-gray-500 hover:text-black hover:border-black py-3 w-32 text-start shadow mt-4 text-gray-700 font-bold'>Discover</button>
                 </div>
 

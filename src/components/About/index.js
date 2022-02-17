@@ -11,7 +11,7 @@ export class About extends Component {
                 </div>
 
                 {/* About Us */}
-                <div className='p-10'>
+                <div className='p-10 xl:w-4/5'>
                     <h1 className='text-4xl font-bold text-gray-800'>About Us</h1>
                     <p className='pt-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, vero deserunt. Fugit assumenda necessitatibus iure eius repellendus suscipit ipsam, laboriosam ab nam odio quidem architecto perferendis modi perspiciatis est totam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium id architecto perspiciatis adipisci esse? Repellendus eius expedita, labore, quaerat dolorum sequi odit alias aut rerum eum impedit, autem error perspiciatis.</p>
                 </div>
@@ -27,7 +27,7 @@ export class About extends Component {
                 </div>
 
                 {/* Our Business Model */}
-                <div className='p-10'>
+                <div className='p-10 xl:w-4/5'>
                     <h1 className='text-3xl font-bold text-gray-800'>Our Business Model</h1>
                     <p className='pt-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, vero deserunt. Fugit assumenda necessitatibus iure eius repellendus suscipit ipsam, laboriosam ab nam odio quidem architecto perferendis modi perspiciatis est totam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium id architecto perspiciatis adipisci esse? Repellendus eius expedita, labore, quaerat dolorum sequi odit alias aut rerum eum impedit, autem error perspiciatis.</p>
                 </div>
@@ -77,14 +77,14 @@ export class About extends Component {
                 {/* Find Positions */}
                 <div className='p-10 bg-black h-300 flex flex-col justify-center items-center'>
 
-                    <img className='rounded-full mb-16 mt-4' src='http://unsplash.it/200/200?random&blur&gravity=center' alt='' />
+                    <img className='rounded-full mb-10 mt-4' src='http://unsplash.it/200/200?random&blur&gravity=center' alt='' />
 
-                    <div>
-                        <h1 className='text-2xl font-bold text-white text-left'>Teamwork unites us. Strength defines us.</h1>
-                        <p className='w-100 py-4 text-left text-white'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
-                        <p className='w-100 py-4 text-left text-white'>Find out what positions are available in your area.</p>
+                    <div className='flex flex-col justify-center items-center'>
+                        <h1 className='text-2xl font-bold text-white text-center'>Teamwork unites us. Strength defines us.</h1>
+                        <p className='w-100 py-4 text-center text-white'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                        <p className='w-100 py-4 text-center text-white'>Find out what positions are available in your area.</p>
 
-                        <button className='text-left pl-4 border border-white hover:text-gray-500 hover:border-gray-500 py-3 w-36 text-start shadow mt-4 text-white font-bold'>Find positions</button>
+                        <button className='pl-4 border border-white hover:text-gray-500 hover:border-gray-500 py-3 w-40 pr-4 shadow mt-4 text-white font-bold'>Find positions</button>
 
                     </div>
                 </div>

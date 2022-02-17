@@ -27,23 +27,29 @@ export class Home extends Component {
                 </div>
 
                 {/* Our Serices */}
-                <div className='p-10'>
-                    <h1 className='text-2xl font-bold text-gray-500'>Products and Services</h1>
-                    <h1 className='text-2xl font-bold text-gray-800'>Our Expertise</h1>
+                <div className='p-10 flex flex-wrap justify-start'>
+                    <h1 className='text-2xl font-bold text-gray-500 w-screen'>Products and Services</h1>
+                    <h1 className='text-2xl font-bold text-gray-800 w-screen'>Our Expertise</h1>
 
-                    <div className='bg-image mt-5 p-4 flex flex-col justify-between'>
+                    <div className='bg-image m-4  p-4 flex flex-col justify-between lg:w-2/5 lg:ml-0'>
                         <h2 className='text-white text-2xl font-medium'>Security Services</h2>
 
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div className='bg-image2 mt-5 p-4 flex flex-col justify-between'>
+                    <div className='bg-image2 m-4  p-4 flex flex-col justify-between lg:w-2/5'>
                         <h2 className='text-white text-2xl font-medium'>Cash Services</h2>
 
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div className='bg-image3 mt-5 p-4 flex flex-col justify-between'>
+                    <div className='bg-image3 m-4  p-4 flex flex-col justify-between lg:w-2/5 lg:ml-0'>
+                        <h2 className='text-white text-2xl font-medium'>Cash Services</h2>
+
+                        <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+
+                    <div className='bg-image3 m-4  p-4 flex flex-col justify-between lg:w-2/5'>
                         <h2 className='text-white text-2xl font-medium'>Cash Services</h2>
 
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
