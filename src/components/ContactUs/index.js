@@ -11,13 +11,13 @@ export class ContactUs extends Component {
 
                     <h1 className='text-2xl font-bold text-gray-800'>Star Security branch office</h1>
                     <p className='py-2 text-gray-800'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem explicabo soluta repudiandae architecto inventore accusantium modi sednerium.</p>
-                    <button className='text-left pl-4 border border-gray-500 hover:text-white hover:border-white py-3 w-32 text-start shadow mt-4 text-gray-700 font-bold'>Contact Us</button>
+                    <button className='text-left pl-4 border border-gray-500 hover:text-black hover:border-black py-3 w-32 text-start shadow mt-4 text-gray-700 font-bold'>Contact Us</button>
 
                     <hr className='border border-gray-400 my-8' />
 
                     <h1 className='text-2xl font-bold text-gray-800'>Careers</h1>
                     <p className='py-2 text-gray-800'>We’re always looking for talented, dynamic people to join our team. Explore our openings to see if there’s a career opportunity that’s right for you.</p>
-                    <button className='text-left pl-4 border border-gray-500 hover:text-white hover:border-white py-3 w-44 text-start shadow mt-4 text-gray-700 font-bold'>View job openings</button>
+                    <button className='text-left pl-4 border border-gray-500 hover:text-black hover:border-black py-3 w-44 text-start shadow mt-4 text-gray-700 font-bold'>View job openings</button>
 
                     <hr className='border border-gray-400 my-8' />
 

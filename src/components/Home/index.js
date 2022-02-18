@@ -7,22 +7,27 @@ export class Home extends Component {
         return (
             <div className=''>
                 {/* Header */}
-                <div>
-                    <img className='w-screen' src='http://unsplash.it/1200/400?random&blur&gravity=center' alt='' />
+                {/* Address */}
+                <div className='p-10 home-image bg-blend-multiply bg-gray-500 flex flex-col justify-center items-start'>
+                    <h1 className='w-96 text-4xl font-semibold  text-white'>Star Security
+                        Earning your trust everyday</h1>
+                    <button className='mt-8 bg-blue-500 hover:bg-black hover:text-white py-3 px-6  shadow mt-4 text-white font-bold'>Explore our openings</button>
                 </div>
 
+
+
                 {/* Second ribbon */}
-                <div className='bg-gray-600 p-10'>
-                    <div className='h-30'>
+                <div className='bg-gray-700 p-10 pt-6 flex flex-wrap'>
+                    <div className='h-30 my-4'>
                         <h1 className='text-2xl font-bold text-white'>Explore our services</h1>
-                        <p className='pt-3 text-white'>We offer business solutions and security services for a complex world.</p>
-                        <button className='bg-blue-500 hover:bg-gray-500 hover:text-black py-3 px-6 shadow mt-4 text-white font-bold'>Request a quote</button>
+                        <p className='pt-3 text-white lg:w-3/4'>We offer business solutions and security services for a complex world.</p>
+                        <button className='bg-blue-500 hover:bg-black hover:text-white py-3 px-6 shadow mt-4 text-white font-bold'>Request a quote</button>
                     </div>
 
-                    <div className='h-30 mt-8'>
+                    <div className='h-30 my-4'>
                         <h1 className='text-2xl font-bold text-white'>Now Hiring</h1>
-                        <p className='pt-3 text-white'>We offer business solutions and security services for a complex world.</p>
-                        <button className='bg-blue-500 hover:bg-gray-500 hover:text-black py-3 px-6 shadow mt-4 text-white font-bold'>Apply Now</button>
+                        <p className='pt-3 text-white lg:w-3/4'>We offer business solutions and security services for a complex world.</p>
+                        <button className='bg-blue-500 hover:bg-black hover:text-white py-3 px-6 shadow mt-4 text-white font-bold'>Apply Now</button>
                     </div>
                 </div>
 
@@ -31,26 +36,26 @@ export class Home extends Component {
                     <h1 className='text-2xl font-bold text-gray-500 w-screen'>Products and Services</h1>
                     <h1 className='text-2xl font-bold text-gray-800 w-screen'>Our Expertise</h1>
 
-                    <div className='bg-image m-4  p-4 flex flex-col justify-between lg:w-2/5 lg:ml-0'>
-                        <h2 className='text-white text-2xl font-medium'>Security Services</h2>
+                    <div className='bg-image bg-blend-multiply bg-gray-500 m-4  p-4 flex flex-col justify-between lg:w-2/5 lg:ml-0'>
+                        <h2 className='text-white text-2xl font-medium'>Door Supervision</h2>
 
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div className='bg-image2 m-4  p-4 flex flex-col justify-between lg:w-2/5'>
-                        <h2 className='text-white text-2xl font-medium'>Cash Services</h2>
+                    <div className='bg-image2 bg-blend-multiply bg-gray-500 m-4  p-4 flex flex-col justify-between lg:w-2/5'>
+                        <h2 className='text-white text-2xl font-medium'>Event Security</h2>
 
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div className='bg-image3 m-4  p-4 flex flex-col justify-between lg:w-2/5 lg:ml-0'>
-                        <h2 className='text-white text-2xl font-medium'>Cash Services</h2>
+                    <div className='bg-image3 bg-blend-multiply bg-gray-500 m-4  p-4 flex flex-col justify-between lg:w-2/5 lg:ml-0'>
+                        <h2 className='text-white text-2xl font-medium'>CCTV Survilance</h2>
 
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div className='bg-image3 m-4  p-4 flex flex-col justify-between lg:w-2/5'>
-                        <h2 className='text-white text-2xl font-medium'>Cash Services</h2>
+                    <div className='bg-image4 bg-blend-multiply bg-gray-500 m-4  p-4 flex flex-col justify-between lg:w-2/5'>
+                        <h2 className='text-white text-2xl font-medium'>Corporate Services</h2>
 
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
@@ -92,10 +97,10 @@ export class Home extends Component {
                 </div>
 
                 {/* Address */}
-                <div className='p-10 bg-gray-400 address-image'>
+                <div className='p-10 bg-blend-multiply bg-gray-500 address-image'>
                     <h1 className='text-2xl font-bold text-white'>Our Address</h1>
                     <p className='py-3 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequuntur repellendus aliquid expedita tempora quo doloremque voluptates eum.</p>
-                    <button className='bg-blue-500 hover:bg-gray-500 hover:text-black py-3 px-6 shadow mt-4 text-white font-bold'>Contact Us</button>
+                    <button className='bg-blue-500 hover:bg-black hover:text-white py-3 px-6 shadow mt-4 text-white font-bold'>Contact Us</button>
                 </div>
 
                 {/* Footer */}

@@ -6,8 +6,7 @@ export class About extends Component {
         return (
             <div className='flex flex-col justify-start h-screen'>
                 {/* Header Image */}
-                <div>
-                    <img className='w-screen' src='http://unsplash.it/1200/400?random&blur&gravity=center' alt='' />
+                <div className='p-10 home-image bg-blend-multiply bg-gray-500 p-32'>
                 </div>
 
                 {/* About Us */}
@@ -36,48 +35,41 @@ export class About extends Component {
                 <div className='p-10 flex flex-wrap justify-start'>
                     <h1 className='text-3xl font-bold text-gray-500 w-screen pb-4'>Our Services</h1>
 
-                    <div className='bg-image w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
-                        <h2 className='text-white text-2xl font-bold'>Physical Security</h2>
+                    <div className='bg-image bg-blend-multiply bg-gray-500 w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
+                        <h2 className='text-white text-2xl font-bold'>Door Supervision</h2>
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div className='bg-image w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
-                        <h2 className='text-white text-2xl font-bold'>Cash Security</h2>
+                    <div className='bg-image2 bg-blend-multiply bg-gray-500 w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
+                        <h2 className='text-white text-2xl font-bold'>Event Security</h2>
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div className='bg-image w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
-                        <h2 className='text-white text-2xl font-bold'>Risk Management</h2>
+                    <div className='bg-image3 bg-blend-multiply bg-gray-500 w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
+                        <h2 className='text-white text-2xl font-bold'>CCTV Survilance</h2>
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div className='bg-image w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
-                        <h2 className='text-white text-2xl font-bold'>Virtual Guarding</h2>
+                    <div className='bg-image4 bg-blend-multiply bg-gray-500 w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
+                        <h2 className='text-white text-2xl font-bold'>Corporate Services</h2>
                         <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div className='bg-image w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
-                        <h2 className='text-white text-2xl font-bold'>Crowd Management</h2>
-                        <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
-                    </div>
-
-                    <div className='bg-image w-full lg:w-2/5 m-4 p-4 flex flex-col justify-between'>
-                        <h2 className='text-white text-2xl font-bold'>Crowd Management</h2>
-                        <p className='text-white py-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
-                    </div>
                 </div>
 
                 {/* Contact us */}
                 <div className='p-10 bg-gray-200 h-300 flex flex-col justify-center items-center'>
                     <h1 className='text-3xl font-bold text-gray-800 text-center'>Contact Us</h1>
                     <p className='w-100 py-4 text-center'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
-                    <button className='text-left pl-4 border border-gray-500 hover:text-white hover:border-white py-3 w-32 text-start shadow mt-4 text-gray-700 font-bold'>Contact Us</button>
+                    <button className='text-left pl-4 border border-gray-500 hover:text-black hover:border-black py-3 w-32 text-start shadow mt-4 text-gray-700 font-bold'>Contact Us</button>
                 </div>
 
                 {/* Find Positions */}
                 <div className='p-10 bg-black h-300 flex flex-col justify-center items-center'>
 
-                    <img className='rounded-full mb-10 mt-4' src='http://unsplash.it/200/200?random&blur&gravity=center' alt='' />
+                    <img className='mb-10 mt-4 w-60 h-60' src='/src/Images/find-positions.jpeg' alt='' />
+
+                    <img src="src/Images/security-guard.jpeg" />
 
                     <div className='flex flex-col justify-center items-center'>
                         <h1 className='text-2xl font-bold text-white text-center'>Teamwork unites us. Strength defines us.</h1>

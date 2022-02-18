@@ -1,0 +1,9 @@
+.home-image{
+    background-image: url('/src/Images/about.jpeg');
+    height: 300px;
+    background-size: cover;
+}
+
+
+
+

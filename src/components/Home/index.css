@@ -1,19 +1,30 @@
+.home-image{
+    background-image: url('/src/Images/security-guard.jpeg');
+    height: 400px;
+    background-size: cover;
+}
 
 .bg-image {
-    background-image: url('/src/Images/security-guard.jpeg');
-    height: 200px;
+    background-image: url('/src/Images/security-services.jpeg');
+    height: 250px;
     background-size: cover;
 }
 
 .bg-image2 {
-    background-image: url('http://unsplash.it/g/1200/200?random&blur&gravity=center');
-    height: 200px;
+    background-image: url('/src/Images/mobile-patrol.jpeg');
+    height: 250px;
     background-size: cover;
 }
 
 .bg-image3 {
-    background-image: url('http://unsplash.it/g/1200/200?blur&gravity=center');
-    height: 200px;
+    background-image: url('/src/Images/cctv.jpeg');
+    height: 250px;
+    background-size: cover;
+}
+
+.bg-image4 {
+    background-image: url('/src/Images/corporate-security.jpeg');
+    height: 250px;
     background-size: cover;
 }
 
@@ -23,7 +34,9 @@
 }
 
 .address-image{
-    background-image: url('http://unsplash.it/g/1200/200?blur&gravity=center');
+    background-image: url('/src/Images/address.jpeg');
     height: 250px;
     background-size: cover;
 }
+
+

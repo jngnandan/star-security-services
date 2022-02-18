@@ -9,52 +9,50 @@ export class Services extends Component {
                     <div className='xl:w-4/5'>
                         <h1 className='text-4xl font-bold text-gray-800'>Services</h1>
                         <p className='py-3 text-gray-800'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem explicabo soluta repudiandae architecto inventore accusantium modi sednerium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, iusto! Quam eveniet iusto, explicabo dignissimos, voluptatibus optio laudantium quas magni iure dolore maxime</p>
-                        <button className='bg-blue-500 hover:bg-gray-500 hover:text-black py-3 px-6 shadow mt-4 text-white font-bold mb-3'>Request a quote</button>
+                        <button className='bg-blue-500 hover:bg-black hover:text-white py-3 px-6 shadow mt-4 text-white font-bold mb-3'>Request a quote</button>
                     </div>
-                    
+
                     {/* Services */}
                     <div className='flex flex-wrap my-6'>
-                        <div className='lg:w-2/6  lg:border-b-0 xl:border-r-0 md:w-2/4 border border-gray-500 p-8 my-4 mt-0 mb-0'>
+                        <div className='md:w-2/4 border border-gray-500 p-8 my-4 mt-0 mb-0'>
                             <h1 className='text-2xl font-bold text-gray-800'>Door Supervison</h1>
-                            <img className='py-4' src='http://unsplash.it/330/220?random&blur&gravity=center' alt='' />
+
+                            <div className='bg-image bg-blend-multiply bg-gray-500 my-4 flex flex-col justify-between'>
+
+                            </div>
+                            {/* <img className='py-4' src='http://unsplash.it/330/220?random&blur&gravity=center' alt='' /> */}
                             <p className='py-2 text-gray-800 text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem explicabo soluta</p>
                             <button className='text-left pl-4 border border-gray-500 hover:text-black hover:border-black py-3 w-32 text-start shadow mt-4 text-gray-700 font-bold'>Learn more</button>
                         </div>
 
-                        <div className='lg:w-2/6  lg:border-b-0 xl:border-r-0 md:border--0 md:w-2/4 border border-gray-500 p-8 my-4 mt-0 mb-0'>
+                        <div className=' md:w-2/4 border border-gray-500 p-8 my-4 mt-0 mb-0'>
+                            <h1 className='text-2xl font-bold text-gray-800'>Event Security</h1>
+
+                            <div className='bg-image2 bg-blend-multiply bg-gray-500 my-4 flex flex-col justify-between '>
+
+                            </div>                            <p className='py-2 text-gray-800 text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem explicabo soluta</p>
+                            <button className='text-left pl-4 border border-gray-500 hover:text-black hover:border-black py-3 w-32 text-start shadow mt-4 text-gray-700 font-bold'>Learn more</button>
+                        </div>
+
+                        <div className='   md:w-2/4 border border-gray-500 p-8 my-4 mt-0 mb-0'>
+                            <h1 className='text-2xl font-bold text-gray-800'>CCTV Survilance</h1>
+
+                            <div className='bg-image3 bg-blend-multiply bg-gray-500 my-4 flex flex-col justify-between'>
+
+                            </div>                            <p className='py-2 text-gray-800 text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem explicabo soluta</p>
+                            <button className='text-left pl-4 border border-gray-500 hover:text-black hover:border-black py-3 w-32 text-start shadow mt-4 text-gray-700 font-bold'>Learn more</button>
+                        </div>
+
+                        <div className='   md:w-2/4 border border-gray-500 p-8 my-4 mt-0 mb-0'>
                             <h1 className='text-2xl font-bold text-gray-800'>Carporate Security</h1>
-                            <img className='py-4' src='http://unsplash.it/330/220?random&blur&gravity=center' alt='' />
-                            <p className='py-2 text-gray-800 text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem explicabo soluta</p>
+
+                            <div className='bg-image4 bg-blend-multiply bg-gray-500 my-3 flex flex-col justify-between'>
+
+                            </div>                            <p className='py-2 text-gray-800 text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem explicabo soluta</p>
                             <button className='text-left pl-4 border border-gray-500 hover:text-black hover:border-black py-3 w-32 text-start shadow mt-4 text-gray-700 font-bold'>Learn more</button>
                         </div>
 
-                        <div className='lg:w-2/6  lg:border-b-0   md:w-2/4 border border-gray-500 p-8 my-4 mt-0 mb-0'>
-                            <h1 className='text-2xl font-bold text-gray-800'>Construction Site Security</h1>
-                            <img className='py-4' src='http://unsplash.it/330/220?random&blur&gravity=center' alt='' />
-                            <p className='py-2 text-gray-800 text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem explicabo soluta</p>
-                            <button className='text-left pl-4 border border-gray-500 hover:text-black hover:border-black py-3 w-32 text-start shadow mt-4 text-gray-700 font-bold'>Learn more</button>
-                        </div>
 
-                        <div className='lg:w-2/6  xl:border-r-0  md:w-2/4 border border-gray-500 p-8 my-4 mt-0 mb-0'>
-                            <h1 className='text-2xl font-bold text-gray-800'>Event Srcurity</h1>
-                            <img className='py-4' src='http://unsplash.it/330/220?random&blur&gravity=center' alt='' />
-                            <p className='py-2 text-gray-800 text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem explicabo soluta</p>
-                            <button className='text-left pl-4 border border-gray-500 hover:text-black hover:border-black py-3 w-32 text-start shadow mt-4 text-gray-700 font-bold'>Learn more</button>
-                        </div>
-
-                        <div className='lg:w-2/6  xl:border-r-0  md:w-2/4 border border-gray-500 p-8 my-4 mt-0 mb-0'>
-                            <h1 className='text-2xl font-bold text-gray-800'>Mobile Patrol</h1>
-                            <img className='py-4' src='http://unsplash.it/330/220?random&blur&gravity=center' alt='' />
-                            <p className='py-2 text-gray-800 text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem explicabo soluta</p>
-                            <button className='text-left pl-4 border border-gray-500 hover:text-black hover:border-black py-3 w-32 text-start shadow mt-4 text-gray-700 font-bold'>Learn more</button>
-                        </div>
-
-                        <div className='lg:w-2/6   md:w-2/4 border border-gray-500 p-8 my-4 mt-0 mb-0'>
-                            <h1 className='text-2xl font-bold text-gray-800'>Hospotality & Residential Security</h1>
-                            <img className='py-4' src='http://unsplash.it/330/220?random&blur&gravity=center' alt='' />
-                            <p className='py-2 text-gray-800 text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem explicabo soluta</p>
-                            <button className='text-left pl-4 border border-gray-500 hover:text-black hover:border-black py-3 w-32 text-start shadow mt-4 text-gray-700 font-bold'>Learn more</button>
-                        </div>
                     </div>
                 </div>
 
@@ -64,7 +62,7 @@ export class Services extends Component {
 
                     <p className='text-xl text-gray-800 my-2 text-center'>Discover how our Cash Management solutions can support your daily operations, and protect your business.</p>
                     <p className='text-xl text-gray-800 my-2 text-center'>Call us now to find out more at <span className='font-bold'>1-855-GO-GARDA (464 2732)</span></p>
-                    <button className='bg-blue-500 hover:bg-gray-500 hover:text-black py-3 px-6 shadow mt-4 text-white font-bold'>Request a quote</button>
+                    <button className='bg-blue-500 hover:bg-black hover:text-white py-3 px-6 shadow mt-4 text-white font-bold'>Request a quote</button>
                 </div>
 
                 <div className='p-10 bg-white flex flex-col justify-left items-left xl:w-4/5'>

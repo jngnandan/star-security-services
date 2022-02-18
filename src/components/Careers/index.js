@@ -6,8 +6,7 @@ export class Careers extends Component {
         return (
             <div className=''>
                 {/* Header */}
-                <div>
-                    <img className='w-screen' src='http://unsplash.it/1200/400?random&blur&gravity=center' alt='' />
+                <div className='home-image bg-blend-multiply bg-gray-500 p-32'>
                 </div>
 
                 {/* Careers label */}
